@@ -34,12 +34,13 @@
         position: absolute;
         z-index: 99;
         bottom: 0;
-        width: 100px;
+        width: 150px;
         height: auto;
     }
 
     .card-contrate {
-        max-width: 80%;
+        max-width: 90% !important;
+        width: 100% !important;
     }
 
     .card-contrate p {
