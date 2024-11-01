@@ -13,17 +13,17 @@
     .perfil .background {
         position: relative;
         width: 100%;
+        height: auto;
         max-width: 300px;
         top: 0;
-
-
     }
 
     .perfil .image-perfil {
-        width: 200px;
+        width: 250px;
         position: absolute;
         z-index: 10;
         bottom: 0;
+        height: auto;
     }
 
     .perfil .logo {
@@ -31,6 +31,7 @@
         z-index: 99;
         bottom: 0;
         width: 100px;
+        height: auto;
     }
 
     .card-contrate {
