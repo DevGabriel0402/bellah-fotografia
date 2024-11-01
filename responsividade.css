@@ -1,0 +1,72 @@
+@media (max-width: 768px) {
+    .perfil {
+        margin-inline: 40px;
+    }
+
+    .card-container {
+        padding-inline: 40px;
+    }
+}
+
+@media(max-width: 467px) {
+
+    .perfil {
+        margin-inline: 20px;
+        padding: 20px;
+        max-width: 100% !important;
+    }
+
+    .perfil>img {
+        width: 100px;
+        height: fit-content;
+    }
+
+    .perfil-info .name-title {
+        font-size: 28px;
+    }
+
+    .perfil-info .description {
+        font-size: 12px;
+    }
+
+    .perfil-info img {
+        width: 38px;
+    }
+
+    .card-contrate {
+        max-width: 350px;
+    }
+
+    .card-contrate p {
+        font-size: 12px;
+
+
+
+    }
+
+    .card-contrate p span {
+        font-size: 12px;
+
+    }
+
+    .card-container {
+        width: 100%;
+        padding-inline: 40px;
+
+    }
+
+    .card {
+        width: 100% !important;
+        max-width: 100%;
+    }
+
+    .card p {
+        font-size: 16px;
+    }
+
+    .swiper {
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 350px) {}
