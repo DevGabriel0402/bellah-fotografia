@@ -10,31 +10,31 @@
 
 @media(max-width: 467px) {
 
-    .perfil {
-        margin-inline: 20px;
-        padding: 20px;
-        max-width: 100% !important;
+    .perfil .background {
+        position: relative;
+        width: 100%;
+        max-width: 300px;
+        top: 0;
+
+
     }
 
-    .perfil>img {
+    .perfil .image-perfil {
+        width: 200px;
+        position: absolute;
+        z-index: 10;
+        bottom: 0;
+    }
+
+    .perfil .logo {
+        position: absolute;
+        z-index: 99;
+        bottom: 0;
         width: 100px;
-        height: fit-content;
-    }
-
-    .perfil-info .name-title {
-        font-size: 28px;
-    }
-
-    .perfil-info .description {
-        font-size: 12px;
-    }
-
-    .perfil-info img {
-        width: 38px;
     }
 
     .card-contrate {
-        max-width: 350px;
+        max-width: 300px;
     }
 
     .card-contrate p {
