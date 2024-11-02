@@ -50,7 +50,7 @@ body {
 
 .modal {
     width: 100%;
-    min-height: 600px;
+    min-height: 90vh;
     overflow: hidden;
     position: fixed;
     z-index: 999;
