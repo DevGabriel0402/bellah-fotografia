@@ -50,9 +50,10 @@ body {
 
 .modal {
     width: 100%;
-    min-height: 90vh;
+    min-height: 100vh;
     overflow: hidden;
     position: fixed;
+    top: 0;
     z-index: 999;
     display: none;
     align-items: center;
