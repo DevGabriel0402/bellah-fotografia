@@ -92,7 +92,7 @@ Aguardando sua resposta.`
     const url = `https://wa.me/55${contato}?text=${uri}`
 
     if (nome === "" || tipoEvento === "nenhum") {
-        alert(`Verifique se foi informado: nome e o tipo de procedimento!`)
+        alert(`Verifique se foi informado: nome e o tipo de evento!`)
         return
     } else {
         window.open(url, `_blank`)
